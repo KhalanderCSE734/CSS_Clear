@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --yeWala-color:#2b3c68;
+    --woWala-color:rgb(16, 178, 207);
+}
+body{
+    width:100%;
+    height:10vh;
+    /* display:grid; */
+    /* place-items:center; */
+    /* padding:20px; */
+    /* background-color: #2b3c68; */
+    background-color: var(--yeWala-color);
+    
+}
+.container{
+    height:400px;
+    width:500px;
+    background-color: rgb(62, 35, 142);
+    display:grid;
+    place-items: center;
+    border-radius:20px;
+}
+.btn{
+    height:80px;
+    width:150px;
+    font-size:1.4rem;
+    font-weight:bold;
+    /* background-color: rgb(16, 178, 207); */
+    background-color: var(--woWala-color);
+    color:red;
+    /* padding:20px; */
+    border:2px solid white;
+    border-radius:10px;
+    cursor:pointer;
+    transition-property:all;
+    transition-duration:.5s;
+    transition-timing-function:linear;
+    transition-delay:.2s;
+}
+.btn:hover{
+    color:orange;
+    background-color: red;
+    /* height:50px; */
+    width:220px;
+}
+
+
+
+.parent{
+    height:700px;
+    width:100%;
+    padding:20px;
+    background-color: rgba(255, 0, 0, 0.797);
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+.child{
+    width:100px;
+    aspect-ratio: 1;
+    background-color: orange;
+    border-radius:50%;
+    box-shadow:0 0 0 10px rgba(255, 166, 0, 0.414);
+    transition:all 1.5s linear .1s;
+}
+
+
+/* .parent:nth-child(1):hover{
+    background-color: red; 
+}*/
+
+
+.child1:hover{
+    background-color: palevioletred;
+    box-shadow:0 0 0 10px rgba(216, 112, 147, 0.675);
+    /* transform:translate(350px,0); */
+    transform:translate(80vw,0);
+}
+
+
+
+
+.dad{
+    height:500px;
+    width:100%;
+    /* background-color: yellow; */
+    display:grid;
+    place-items: center;
+  
+}
+.img{  
+    perspective: 1000px;
+}
+.img img{
+    transition:all 1s linear;
+    cursor:pointer;
+    /* animation:round 3s ease-in-out 1s 1 ;  */
+    /* animation:rotate360 10s ease-in 1.5s 1; */
+    /* We even have animation direction */
+}
+
+
+@keyframes rotate360{
+    0%{
+        transform:rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+    100%{
+        transform:rotateX(360deg) rotateY(360deg);
+    }
+}
+
+
+@keyframes round{
+    from{
+        rotate:0deg;
+    }
+    to{
+        rotate:360deg;
+    }
+}
+
+.img img:hover{
+    /* scale:1.2; */
+    /* translate: 150px; */
+    /* rotate:90deg; */
+    /* transform:rotateX(60deg);       In order to change the center of rotation use "transform-origin:right or left" or wherever we want to rotate */
+    transform:translateZ(-100px);
+    /* translate: 120px 120px;   x axis and y axis, You can even use negative and all*/
+}

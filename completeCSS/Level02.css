@@ -1,0 +1,68 @@
+.amazon {
+   height:50px;
+    border:rgb(11, 11, 177) dotted 10px;
+    padding-top:10px;
+    background-color:black;
+    padding-bottom:20px;
+   
+    
+}
+
+#name, .other {
+    margin-right:150px;
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+    display:inline-block;
+    padding-bottom:50px;
+    position:relative;
+    bottom:20px;
+}
+.anything {
+    position:relative;
+    bottom:20px;
+}
+#name {
+    color:#f08804;
+}
+#nowset {
+    display:inline-block;
+    margin-left:80px;
+    margin-right:50px;   
+   padding-top:10px;
+}
+
+.div {
+    height:100px;
+    width:100px;
+    border-width:5px;
+   border-radius:50%;
+   margin-bottom:10px;
+}
+
+#div1 {
+    background-color: rgba(255,0,0,0.5);
+}
+#div2 {
+    background-color: rgba(0,255,0,0.5);
+}
+#div3 {
+    background-color: rgba(0,0,255,0.5);
+}
+ main {
+    height:500px;
+ }
+/* footer {
+    
+ } */
+ #erir {
+    height: 90px;
+    font-size:45px;
+    text-align: center;
+    background-color:black;
+    color:white;
+    padding-top:35px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+ }

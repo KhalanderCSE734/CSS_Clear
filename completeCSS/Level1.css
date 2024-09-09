@@ -1,0 +1,27 @@
+#BOX {
+    background-color: blue;
+    color:pink;
+}
+.headings {
+color: red;
+}
+button {
+    background-color: green;
+}
+#hai{
+    text-align:center;
+    text-decoration: wavy underline peachpuff ;
+    text-transform: capitalize;
+  }
+  #hello {
+    font-size : large;
+    font-weight : bolder;
+    line-height: 50px; 
+    font-family:'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', sans-serif ;    
+    }
+#outer {
+    font-size:25px;
+}
+#inner {
+    font-size:10px;
+}

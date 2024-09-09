@@ -1,0 +1,48 @@
+.amazon {
+    background-color:black;
+    height:60px;
+    border:white solid 10px;
+}
+#name, .other {
+    margin-right:200px;
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+}
+#name {
+    color:#f08804;
+}
+body {
+    background-color: pink;
+}
+.ok {
+    background-color:rgb(0, 0, 0);
+    height:350px;
+    width:150px;
+}
+#red{
+    background-color:red;
+       height:70px;
+       width :70px;
+      border-radius:50%;
+      margin-left:30px;
+      margin-top:30px;
+      display:inline-block;
+}
+#yellow {
+    background-color:yellow;
+       height:70px;
+       width :70px;
+       border-radius:50%;
+       margin-left:30px;
+      margin-top:30px;
+}
+#green{
+    background-color:green;
+       height:70px;
+       width :70px;
+       border-radius:50%;
+       margin-left:30px;
+      margin-top:30px;
+}
+

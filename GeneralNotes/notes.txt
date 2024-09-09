@@ -1,0 +1,41 @@
+1.) To keep background image fixed use // Stop image scroll
+    "background-attachment: fixed" and other values
+2.) For fonts use google fonts
+3.) To center a line, use 
+    "line-height:value" value = height of the container
+4.) use text-shadow to animate your text
+5.) Initiale character styling, use pseudo element
+    p::first-letter{
+        properties
+    }        
+6.) For aswesome linear gradient color use that website itself
+7.) And for border-radius also use
+    "9elements github io" website
+8.) using background image and color in same
+    background-image: linear-gradient(colors),url();
+    in order to make the image visible, change the opacity and do
+    and we even have "radial-gradient"
+    background-image:radial-gradient(circle, green 20%, red 30%, orange 20%, pink 30%);
+    background-image:repeating-radial-gradient(circle, green , red , orange , pink, 150px);
+9.) For box-shadow use website,
+    get css scan
+10.) to apply shadow for images, use,    
+    drop-shadow
+11.) 3d designs and images and pictures, use
+    pix Cap
+12.) To convert colored image to black and white
+    -webkit-filter:greyscale()
+13.) Netflix in one line
+        "filter:brightness(x%);" value
+14.) For specificity, use
+        '!important',
+15.)Specificity order (highest to lowest)
+    *!important
+    *inline style
+    *id
+    *class/pseudo-class
+    *element selector
+16.) We have CSS nesting, please use it "Need to use ampersand"
+17.) We have writing mode "For vertical wirting"                
+18.) How to copy favicon from website
+        url/favicon.ico

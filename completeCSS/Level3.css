@@ -1,0 +1,35 @@
+div {
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-color:blueviolet;
+    border: 3px dotted red;
+
+}
+h1{
+    color:antiquewhite;
+   background-color:blue;
+ }
+ #box2 {
+    background-image: url("mummy.jpg");
+      background-size: cover;
+      /* object-fit: cover; */
+      /* background-position: center; */
+    /* background-size:contain; */
+    background-repeat:no-repeat;
+ }
+ .practiseOne {
+    background-color:green;
+    height:200px;
+    width:200px;
+    background-image: url("some.png");
+    /* background-repeat:no-repeat; */
+    background-size: cover;
+    /* background-size:contain; */
+    color: crimson;
+    position:fixed;
+    right:0px;
+   
+ }
+ 
+
