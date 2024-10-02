@@ -39,3 +39,9 @@
 17.) We have writing mode "For vertical wirting"                
 18.) How to copy favicon from website
         url/favicon.ico
+19.) To create waves use plugin, 
+        shape divider
+20.)Image optimization
+        squosh, pixelid        
+21.) Bombart animations site
+        Data AOS github
